@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 170px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 23px;
+}
+.nav-menu li:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DF8908 0.36%, #B415FF 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-mob-open{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(100%) contrast(100%);
+    display: none;
+}
+
+.nav-mob-close{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) brightness(100%) contrast(100%);
+    display: none;
+}
+
+@media(max-width: 768px){
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-mob-open{
+        margin-top: 30px;
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .nav-menu{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 0;
+        gap: 30px;
+        background: linear-gradient(180deg, #c0392b, #8e44ad, #2c3e50);
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+}

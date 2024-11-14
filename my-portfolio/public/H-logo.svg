@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="64" height="64" viewBox="0 0 500 500"
+ preserveAspectRatio="xMidYMid meet">
+
+  <!-- Define the gradient -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="10%" style="stop-color:#DF8908; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B415FF; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Apply the gradient to the paths -->
+  <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="url(#gradient1)" stroke="none">
+    <path d="M1830 3447 l-425 -243 0 -693 0 -693 163 -93 162 -93 0 684 0 683 63 34 c34 19 150 83 257 142 107 59 198 110 203 114 4 4 6 96 5 204 l-3 197 -425 -243z"/>
+    <path d="M2730 3679 c0 -8 0 -233 0 -501 0 -387 -2 -488 -12 -489 -7 0 -112 0 -233 0 l-220 1 -3 194 -2 194 -175 -96 -175 -95 2 -680 3 -679 170 -99 170 -98 5 502 5 502 230 0 230 0 1 -188 c1 -104 4 -191 7 -193 3 -3 80 36 171 86 l166 92 0 678 0 678 -147 88 c-82 48 -158 94 -170 102 -19 12 -23 12 -23 1z"/>
+    <path d="M3250 2698 l-1 -683 -257 -141 -257 -141 -5 -184 c-3 -101 -3 -192 0 -201 4 -13 86 31 425 226 l420 243 0 692 0 693 -152 89 c-84 49 -157 89 -163 89 -7 0 -10 -231 -10 -682z"/>
+  </g>
+
+</svg>

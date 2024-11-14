@@ -1,8 +1,9 @@
-import React, {useRef} from 'react'
-import'./Navbar.css'
+import React, {useRef} from 'react';
+import'./Navbar.css';
+import logo from '../../assets/H-logo.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import hamburger_menu from '../../assets/hamburger_menu.svg'
-import menu_close from'../../assets/menu_close.svg'
+import hamburger_menu from '../../assets/hamburger_menu.svg';
+import menu_close from'../../assets/menu_close.svg';
 const Navbar = () => {
   const menuRef = useRef();
 
@@ -15,6 +16,9 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
+      <div className="logo-container">
+        <img src={logo} alt ="Logo" />
+      </div>
       <img src={hamburger_menu} onClick={openMenu} alt="" className='nav-mob-open'/>
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />

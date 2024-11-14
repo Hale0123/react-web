@@ -2,7 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 170px;
+    margin: 20px 300px;
+}
+
+.logo-container {
+    flex: 1; /* Ensures the logo takes up the leftmost space */
+  }
+  
+.navbar img {
+    margin-top: 5px;
+    height: 110px; /* Adjust logo size */
 }
 
 .nav-menu{
@@ -67,6 +76,11 @@
         left: 290px;
         width: 30px;
     }
+    .navbar img {
+        margin-top: 5px;
+        height: 90px; /* Adjust logo size */
+    }
+
     .nav-menu{
         display: flex;
         position: fixed;

@@ -93,7 +93,7 @@
         max-width: 300px;
     }
     .services-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }
